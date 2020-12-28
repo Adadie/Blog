@@ -1,0 +1,47 @@
+@use '../styles/variables.scss';
+.testing{
+    background-color: black;
+}
+.navBar {
+  background-color: #101820;
+  width: 100%;
+  min-height: 10vh;
+}
+.navLinks {
+  display: flex;
+  margin-left: 10vh;
+  margin-top: 2vh;
+}
+.navLinks :hover{
+    color: orange;
+    text-decoration-color: chocolate;
+  }
+.navLink {
+  color: #E5E5E5;
+  margin: 3vh;
+}
+.logo {
+    margin-left: 9vh;
+}
+.logo :hover{
+    text-decoration: none;
+}
+#K{
+    color: orange;
+}
+#J{
+    color: rgb(68, 49, 14);
+}
+#A{
+    color: orange;
+}
+.icons {
+  display: flex;
+  margin-left: 10vh;
+}
+.icon {
+  max-width: 2vh;
+  max-height: 2vh;
+  margin-top: 2vh;
+  margin-left: 7vh;
+}
