@@ -21,7 +21,7 @@ const NavBar = () => {
               <Link to="/">
                 {/* <img src={logo} alt="logo" /> */}
                 <h1>
-                  <span id="K">K</span><span id="J">J</span>
+                  <span id="K">K</span><span id="J"><sub>J</sub></span>
                   <span id="A">A</span>
                 </h1>
               </Link>

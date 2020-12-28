@@ -1,0 +1,50 @@
+.footerContainer{
+    padding: 0px;
+}
+.footer{
+    display: block;
+    background-color: #101820;
+    position: absolute;
+    width: 100%;
+    bottom: 0vh;
+    height: 11vh;
+}
+.footer h3{
+    color: #E5E5E5;
+    margin-left: 15vh;
+    margin-top: 1vh;
+    font-size: 3vh;
+    font-style: italic;
+}
+.footer .icons {
+    position: absolute;
+    right: 45%;
+  }
+.footer .icon {
+  max-width: 2vh;
+  max-height: 2vh;
+  margin-bottom: 2vh;
+  margin-left: 5vh;
+}
+#terms{
+    position: absolute;
+    color: #E5E5E5;
+    bottom: 2vh;
+    right: 45%;
+}
+.copyright{
+    display: flex;
+    position: absolute;
+    right: 45%;
+    margin-top: 5vh;
+}
+.copyright p{
+    color: #E5E5E5;
+    margin-top: 1vh;
+}
+.copyicon {
+    max-width: 1vh;
+    max-height: 1vh;
+    margin-top: 2vh;
+    margin-left: 1vh;
+  }
