@@ -1,0 +1,56 @@
+.homepage{
+    position: absolute;
+    background-color: black;
+    height: 100%;
+    width: 100%;  
+}
+.profile{
+    width: 70vh;
+    border: none;
+    height: 60vh;
+}
+.intro{
+    margin-left: 10vh;
+}
+.intro h1{
+    color: #F2AA4C;
+    margin-top: 7vh;
+}
+.intro span{
+    color: #E5E5E5
+}
+.table{
+    background-color: #191919;
+    margin-top: 5vh;
+    width: 90vh;
+    border-color: orange;
+}
+.table td{
+    color: #E5E5E5;
+    border-color: orange;
+}
+.table td h3{
+    font-size: 2vh;
+    margin:0px;
+}
+.vl {
+    margin-top: 1vh;
+    border-left: 0.7vh solid orange;
+    border-radius: 0.3vh;
+    height: 4vh;
+  }
+.resume{
+    background-color: #F2AA4C;
+    margin-left: 45vh;
+    margin-top: 5vh;
+    border-radius: 2vh;
+}
+.resume:hover{
+    background-color: chocolate;
+
+}
+.resume .link{
+    color: black; 
+    font-size: large;
+    font-weight: bold;  
+}

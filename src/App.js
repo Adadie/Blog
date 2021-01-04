@@ -4,13 +4,15 @@ import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 
 import NavBar from './components/Navbar';
 import Footer from './components/Footer';
+import HomePage from './components/Homepage';
 
 function App() {
   return (
     <div>
       <Router>
-        <NavBar/>
-        <Footer/>
+        <NavBar />
+        <HomePage />
+        <Footer />
       </Router>
     </div>
   )

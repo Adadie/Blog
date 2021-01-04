@@ -12,7 +12,7 @@ import facebook from "../Assets/facebook.png";
 
 const NavBar = () => {
   return (
-    <Container fluid>
+    <Container className='navContainer' fluid>
       <Navbar className="navBar">
         <Row>
           <Nav >
