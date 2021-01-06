@@ -1,14 +1,14 @@
 import react from "react";
 import { Link } from "react-router-dom";
 import "./Homepage.scss";
-import { Container, Button, Row, Col, Table, Td, Th } from "reactstrap";
+import { Container, Button, Row, Col, Table } from "reactstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import profile from "../Assets/profile.png";
 
 const HomePage = () => {
   return (
-    <Container className="homepage" fluid>
-      <div>
+    <Container className="homepageContainer" fluid aria-expanded='md'>
+      <div className='homepage'>
         <Row>
           <Col xs="2">
             <img className="profile" src={profile} alt="image"></img>

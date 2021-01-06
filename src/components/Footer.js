@@ -15,7 +15,6 @@ const Footer = () => {
   return (
     <Container className='footerContainer' fluid aria-expanded='md'>
       <div className='footer'>
-          {/* <h3>Connect On:</h3> */}
           <Row>
           <div className= 'icons'>
               <Link>
