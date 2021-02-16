@@ -1,0 +1,50 @@
+.homepageContainer{
+    position: absolute;
+    background-color: black;
+    top: 10vh;
+    bottom: 0vh;
+}
+.profileImg{
+    max-height: 500px;
+    max-width: 700px;
+}
+.intro{
+    position: absolute;
+    left: 40vh;
+    top: 15vh;
+}
+.intro h1{
+    color: #F2AA4C;
+    margin-bottom: 5vh;
+}
+.intro h1 span{
+    color: #E5E5E5;
+    margin-bottom: 5vh;
+}
+.intro .table {
+    background-color: #191919;
+    margin-top: 5vh;
+}
+.intro .table td{
+    border-color: #F2AA4C;
+    color: #E5E5E5;
+}
+.resumeButton{
+    position: absolute;
+    left: 40vh;
+    margin-top: 10vh;
+    background-color: #F2AA4C;
+}
+.resumeButton :hover{
+    color: #E5E5E5;
+}
+.buttonText{
+    color: black;
+    font-weight: bold;
+}
+.vertical { 
+ border-left: 2px solid #F2AA4C; 
+ height: 20px;
+ margin-left: 1vh;
+ position:absolute; 
+}

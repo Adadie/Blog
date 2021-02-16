@@ -12,7 +12,7 @@ import facebook from "../Assets/facebook.png";
 
 const NavBar = () => {
   return (
-    <Container fluid>
+    <Container className='navbarContainer' fluid>
       <Navbar className="navBar">
         <Row>
           <Nav >
@@ -27,7 +27,6 @@ const NavBar = () => {
               </Link>
             </NavItem>
             </Col>
-            <div className='collapse navbar-collapse' id='navbarSupportedContent'></div>
             <Col>
             <div className="navLinks">
               <NavItem>

@@ -2,9 +2,8 @@
 import react from "react";
 import { Link } from "react-router-dom";
 import "./Footer.scss";
-import { Container, Navbar, Nav, NavItem, Label, Input, Row, Col } from "reactstrap";
+import { Container, Row} from "reactstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
-import logo from "../Assets/logo.png";
 import twitter from "../Assets/twitter.png";
 import google from "../Assets/google.png";
 import insta from "../Assets/instagram.png";
